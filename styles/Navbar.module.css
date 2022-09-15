@@ -1,0 +1,25 @@
+.navContainer{
+    background: #eaeaea;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+.navItem{
+    margin: 23px 28px;
+}
+.navItem a{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    transition: color 0.15s ease, border-color 0.15s ease;
+}
+.navItem a:hover,
+.navItem a:focus,
+.navItem a:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}

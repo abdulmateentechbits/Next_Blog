@@ -3,6 +3,9 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  const clipWords = (para) => {
+    return para.length > 60 ? para.substring(0, 59) + '...' : para;
+  }
   return (
     <div className={styles.container}>
       <Head>
@@ -13,40 +16,108 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="#">Blog Website!</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Explore our{' '}
+          <code className={styles.code}>Blog/learn-for-free</code>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="#" className={styles.card}>
+            <h2>Promises in JavaScript </h2>
+            <p className={styles.clipText}>{clipWords('A callback function is executed after the original function...')}</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="#" className={styles.card}>
+            <h2>Map() in JavaScript </h2>
+            <p className={styles.clipText}>
+              {
+                clipWords('One of the most often used methods is Array.map(), which allows you to iterate over an array and modify its elements using a callback function. The callback function will be run on each array element.')
+              }
+            </p>
+          </a>
+
+          <a href="#" className={styles.card}>
+            <h2>Filter() and Find() in JavaScript </h2>
+            <p className={styles.clipText}>
+              {
+                clipWords("Filter() provides a new array depending on certain criteria. Unlike map(), it can alter the size of the new array, whereas find() returns just a single instance (this might be an object or item).")
+              }
+            </p>
+          </a>
+          <a href="#" className={styles.card}>
+            <h2>Find() in javascript </h2>
+            <p className={styles.clipText}>
+              {
+                clipWords("The find() method, like the filter() method, iterates across the array looking for an instance/item that meets the specified condition. Once it finds it, it returns that specific array item and immediately terminates the loop. If no match is discovered, the function returns undefined.")
+              }
+            </p>
+          </a>
+          <a href="#" className={styles.card}>
+            <h2>Destructuring In Javascript </h2>
+            <p className={styles.clipText}>
+              {
+                clipWords("Destructuring is a JavaScript feature introduced in ES6 that allows for faster and simpler access to and unpacking of variables from arrays and objects.Before destructuring was introduced, if we had an array of fruits and wanted to get the first, second, and third fruits separately, we would end up with something like this:")
+              }
+            </p>
+          </a>
+          <a href="#" className={styles.card}>
+            <h2>Object destructuring </h2>
+            <p className={styles.clipText}>
+              {
+                clipWords("Let’s now see how we could destructure an object – because in React you will be doing a lot of object descructuring. Suppose we have an object of user which contains their firstname, lastname, and lots more,")
+              }
+            </p>
+          </a>
+          <a href="#" className={styles.card}>
+            <h2>Rest and Spread </h2>
+            <p className={styles.clipText}>
+              {
+                clipWords("JavaScript spread and rest operators use three dots ....  The rest operator gathers or collects items – it puts the “rest” of some specific user-supplied values into a JavaScript array/object.")
+              }
+            </p>
+          </a>
+          <a href="#" className={styles.card}>
+            <h2>Spread operator </h2>
+            <p className={styles.clipText}>
+              {
+                clipWords("The spread operator, as the name implies, is used to spread out array items. It gives us the ability to get a list of parameters from an array. The spread operator has a similar syntax to the rest operator, except it operates in the opposite direction.")
+              }
+            </p>
+          </a>
+
+          <a href="#" className={styles.card}>
+            <h2>Unique Value - Set() </h2>
+            <p className={styles.clipText}>
+              {
+                clipWords("A set is a collection of items which are unique, that is no element can be repeated. Let’s see how we can implement this easily.")
+              }
+            </p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="#"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>Reduce() in JavaScript </h2>
+            <p className={styles.clipText}>
+              {
+                clipWords("This is arguably the most powerful array function. It can replace the filter() and find() methods and is also quite handy when doing map() and filter() methods on large amounts of data.")
+              }
+            </p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="#"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+            <h2>Optional chaining </h2>
+            <p className={styles.clipText}>
+              {
+                clipWords("Optional chaining is a safe way to access nested object properties in JavaScript rather than having to do multiple null checks when accessing a long chain of object properties. It is a new feature introduced in ES2020.")
+              }
             </p>
           </a>
         </div>
@@ -54,13 +125,12 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
+          href="#"
           rel="noopener noreferrer"
         >
           Powered by{' '}
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            Mateen
           </span>
         </a>
       </footer>
