@@ -1,0 +1,10 @@
+{
+    "id":1,
+    "slug":"destructuring-in-javascript",
+    "title":"Destructuring in JavaScript",
+    "author":"Mateen",
+    "authorImg":null,
+    "gender":"Male",
+    "about":"Programmer",
+    "description":"Destructuring is a JavaScript feature introduced in ES6 that allows for faster and simpler access to and unpacking of variables from arrays and objects.Before destructuring was introduced, if we had an array of fruits and wanted to get the first, second, and third fruits separately, we would end up with something like this:"
+}

@@ -1,0 +1,10 @@
+{
+    "id":6,
+    "slug":"map-in-javascript",
+    "title":"Rest and spread in javascript",
+    "author":"Salina",
+    "authorImg":null,
+    "gender":"Female",
+    "about":"Software Engineer",
+    "description":"JavaScript spread and rest operators use three dots ....  The rest operator gathers or collects items – it puts the “rest” of some specific user-supplied values into a JavaScript array/object."
+}

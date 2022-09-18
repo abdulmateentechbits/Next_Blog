@@ -1,0 +1,10 @@
+{
+    "id":2,
+    "slug":"filter-in-javascript",
+    "title":"Filter() in JavaScript",
+    "author":"Saleem",
+    "authorImg":null,
+    "gender":"Male",
+    "about":"Software Engineer",
+    "description":"Filter() provides a new array depending on certain criteria. Unlike map(), it can alter the size of the new array, whereas find() returns just a single instance (this might be an object or item)."
+}

@@ -1,0 +1,65 @@
+.mainHeading {
+	padding:1rem 0rem;
+}
+
+.postTopMeta{
+  margin-bottom:2rem;
+}
+.postTopMeta span {
+	font-size:0.9rem;
+	color:rgba(0,0,0,.44);
+	display:inline-block;
+}
+.follow {
+	border-color:#02B875;
+	color:#1C9963;
+	padding:3px 10px;
+  margin-left: 5px;
+	text-align:center;
+	border-radius:999em;
+	font-size:0.85rem;
+	display:inline-block;
+}
+.authorDescription{
+  margin-bottom:5px;
+	margin-top:5px;
+	font-size:0.95rem;
+}
+.postDate{
+	display:inline-block;
+}
+.postDate {
+	color:rgba(0,0,0,.44);
+}
+.Dot:after {
+	content:"·";
+	margin-left:3px;
+	margin-right:3px;
+}
+span.postDate,span.postRead {
+	color:rgba(0,0,0,.44);
+}
+.PostTitle{
+  font-weight:700;
+	margin-bottom:1rem;
+}
+.authImg{
+  border-radius: 50%;
+}
+.featuredImage{
+  display:block;
+	margin:0px auto;
+	margin-bottom:1.5rem;
+}
+.articlePost {
+	font-family:Merriweather;
+	font-size:1.2rem;
+	line-height:1.8;
+	color:rgba(0,0,0,.8);
+}
+.blockquote {
+	border-left:4px solid #00ab6b;
+	padding:0 20px;
+	font-style:italic;
+	color:rgba(0,0,0,.5);
+}

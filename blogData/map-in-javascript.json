@@ -1,0 +1,10 @@
+{
+    "id":4,
+    "slug":"map-in-javascript",
+    "title":"Map() in javascript",
+    "author":"Rika",
+    "authorImg":null,
+    "gender":"Female",
+    "about":"Programmer",
+    "description":"One of the most often used methods is Array.map(), which allows you to iterate over an array and modify its elements using a callback function. The callback function will be run on each array element."
+}

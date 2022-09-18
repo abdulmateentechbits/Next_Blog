@@ -1,0 +1,10 @@
+{
+    "id":3,
+    "slug":"find-in-javascript",
+    "tile":"Find() in JavaScript",
+    "author":"Kaleem",
+    "authorImg":null,
+    "gender":"Male",
+    "about":"UX/UI designer",
+    "description":"The find() method, like the filter() method, iterates across the array looking for an instance/item that meets the specified condition. Once it finds it, it returns that specific array item and immediately terminates the loop. If no match is discovered, the function returns undefined."
+}

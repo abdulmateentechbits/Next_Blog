@@ -13,17 +13,17 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className={styles.navItem}>
-                        <Link href="about">
+                        <Link href="/about">
                             <a>About</a>
                         </Link>
                     </li>
                     <li className={styles.navItem}>
-                        <Link href="blog">
+                        <Link href="/blog">
                             <a >Blog</a>
                         </Link>
                     </li>
                     <li className={styles.navItem}>
-                        <Link href="contact">
+                        <Link href="/contact">
                             <a>Contact</a>
                         </Link>
                     </li>
